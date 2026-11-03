@@ -27,10 +27,13 @@ No unexpected behavior was observed during exploratory testing. All buttons beha
     no branches or loops
 
 Branch coverage does not meaningfully apply to this component because no conditional statements exist. Similarly, loop coverage does not apply because the component contains no loops. The most important coverage metric for this component is statement coverage, which requires executing the three statements that modify the count value.
+<img width="859" height="287" alt="image" src="https://github.com/user-attachments/assets/a97a2691-316d-490e-ac20-e19f16833d7e" />
+
 
 ## Step 8: Review Code Coverage
 
 The tests executed all three statements that modify the count value: increment, decrement, and reset. No statements that change the application's behavior remained untested. The component contains no conditional statements, so few or no branches are reported. High coverage indicates that the code was executed during testing, but coverage alone does not guarantee the application is completely correct because it does not verify all possible user scenarios.
+<img width="676" height="188" alt="image" src="https://github.com/user-attachments/assets/feb35480-317a-454a-80cf-06829272dcdd" />
 
 
 ## Step 9: Compare the Two Approaches
